@@ -89,7 +89,7 @@ export async function onRequest(context) {
       }
       
       // Create canonical URL
-    const canonicalOrigin = 'https://pa-barru.go.id/akte/kelahiran/fakta.php'; // Sesuaikan
+    const canonicalOrigin = 'https://pa-barru.go.id/akta/kelahiran/fakta.php'; // Sesuaikan
     const canonicalUrl = `${canonicalOrigin}?berita=${urlFormattedSite}`;
       
       console.log('Generated canonical URL:', canonicalUrl);
